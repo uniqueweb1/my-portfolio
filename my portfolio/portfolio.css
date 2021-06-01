@@ -1,0 +1,472 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif;
+}
+body{
+    background-color: #e6e4e4;
+    text-align: center;
+}
+/*-----all website here-------*/
+#page-wrap{
+    width:auto;
+    margin:0 auto;
+}
+/* navigation style*/
+.header {
+    background: radial-gradient(#fff,#0d78c0)repeat scroll 0% 0%;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+      
+}    
+.container {
+    max-width :1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #fff;
+    background: #fff;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+    
+}
+   /*ul link*/
+ .logo{
+    display: block; 
+}
+nav{
+    text-align: right;
+    flex: 1;
+      }
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+} 
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    }
+    a{
+      text-decoration: none;  
+      color: #0d78c0;
+          }
+          .header .row{
+          margin-top: 70px;
+          display: flex;
+          }
+    .row{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content:space-around;
+        margin: auto;
+    }
+    .col-2 {
+     flex-basis: 50%;
+        min-width:    300px;
+    }
+    .col-2 h1 {
+        font-size: 50px;
+        line-height: 60px;
+        margin: 25px 0;
+    }  
+    p {
+        color: #555;
+        margin-left: 25px;
+        font-size: 25px;
+        font-weight: 700;
+        font-family: d-din ;
+    }
+    .btn {
+        display: inline-block;
+        background: #FF523B none repeat scroll 0% 0%;
+        color: #FFF;
+        padding: 8px 30px;
+        margin:30px 10px;
+        border-radius: 30px;
+        transition:background  0.5s;
+        animation:myanimate 0.9s;
+        animation-iteration-count: infinite;
+        animation-fill-mode: none;
+    }
+    @keyframes myanimate{
+        5%{
+            background-color:#FF523B;
+       box-shadow:  0 7px 21px 0 #FF523B;
+       ;
+     
+        }
+        50%{
+            background-color:#831d1d;
+            box-shadow:  0 7px 21px 0 #831d1d;
+        
+        }
+        100%{
+            background-color:#773030;
+            box-shadow:   0 7px 21px 0 #773030;
+            ;
+          
+        }
+       
+    }    
+
+    .btn:hover{
+      background-color: #FF523B;
+        }
+        .bttn{
+            background: #d1d1d1;
+            display: inline-block;
+            color:#fff;
+            border-radius: 30px;
+            outline:none;
+            padding: 8px 30px;
+            margin:30px 10px;
+        }
+    .header .row{
+        margin-top: 70px;
+    }
+    .col-2 img {
+      padding: 50px 0;
+      min-width: 80px;
+      max-width: 100%;
+    }
+    /*---------sec1----*/
+    .sec1{
+       background: url(img/laptop3.jpg) repeat no-repeat;
+       background-size: auto;
+       background-position:center;
+        background-blend-mode: overlay;
+        margin:3em 0.5em 0.5em 0.5em;
+        height: 90vh;
+        min-width: 100px;
+        z-index :1;
+    }
+    
+
+    .sec1 h1{
+        font-size: 2em;
+        font-family:cursive;
+        text-align: center;
+        color:#fff;
+        padding-top: 10px;
+    }
+    /*---------about section-----*/
+    .about{
+        background-color: #fff;
+    }
+    .title{
+        font-size: 30px;
+        font-weight: 900;
+        font-family: cursive;
+        margin-top:10px ;
+        color:#0d78c0;
+        background-color: #fff;
+    }
+.content{
+    text-align: center;
+    padding: auto;
+    margin-bottom:4em;
+    margin-top:10px;
+    background-color: #fff;
+    height:auto;
+    flex-wrap: wrap;
+}
+.content p {
+color:#555;
+margin-top: 30px;
+font-weight: 400;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*---------testimonial section---*/
+.testimonial{
+    position: relative;
+    margin-top: 30px; 
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center; 
+  max-width: max-content;
+}
+.testt{
+    color: #0d78c0;
+    text-align: center;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box{
+    background: #fff;
+    border-radius: 3px;
+    margin: 25px;
+    flex-wrap: wrap;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+       
+}
+.box i.quote{
+
+    font-size: 20px;
+    color: #0d78c0;
+}
+.box p{
+    font-family: cursive;
+    font-weight: 400;
+}
+.box .content{
+padding: 10px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.box .info .name{
+    font-size: 17px;
+    font-weight: 600;
+    font-family: cursive;
+}
+.box .info .job{
+    color: #0d78c0;
+    font-size: 16px;
+    font-weight: 500;
+    font-family:cursive ;
+}
+.box .info .stars{
+margin-top: 2px;
+}
+.box .info .stars i{
+color: #0d78c0;
+}
+.box .content .image{
+    height: 75px;
+    width: 75px;
+    padding: 3px;
+    background: #0d78c0;
+    border-radius: 50%;
+}
+.box .content .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #fff;
+} 
+
+/*-------skills section----*/
+.skill{
+    display: flex;
+    padding: 16px;
+    background: #fff;
+    border: 2px solid #fff;
+    margin-left: 25px;
+    margin-right: 25px;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+      
+}
+.hh2{
+    color: #0d78c0;
+  margin-top: 20px;
+  
+  text-align: center;
+}
+
+.skill .set{
+    background-color: #fff;
+    margin: 24px;
+    cursor: pointer;
+}
+.skill .set:hover{
+    box-shadow: 0px 12px 16px #36363624;
+}
+.set span{
+    justify-content: center;
+    }
+    .list{
+        text-align: center;
+    }
+    @media (max-width:600px)
+   
+{
+    .skill{
+    padding: 2rem  auto 33px auto;
+  }
+}
+    /*--------contact us section-----*/
+    .form-container {
+        justify-content: center;
+        align-items: center;
+     position: relative;
+     display: block;
+           width: 95%;
+           padding: 15px;
+           margin-bottom: 40px;
+           margin-left: 25px;
+           margin-right: 25px;
+           background: #fff;
+           color: #000;
+           box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+        }
+        .form-container h2{
+            padding-top:0px;
+            margin-bottom: 20px;
+            color:#0d78c0;
+         }
+         .input-cnt {
+            display: flex; /* display the input in a line */
+            margin-bottom: 15px;
+         }
+         .input-cnt:last-child {
+            margin-bottom: 0px;
+         }
+         .input-cnt > {
+            min-width: 0px;
+            padding: 0px;
+            text-align: center; 
+            background: white;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            color: #4caf50;
+         }
+          /* change styles when focused */
+      .input-cnt:hover >  {
+        background: #4caf50;
+        color: white;
+     }
+      /* style the input and textarea */
+      .input-cnt > input[type="text"], .input-cnt > textarea {
+        outline: none;
+        border: none;
+        padding: 10px;
+        border: 1px solid lightgrey;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        width: 100%;
+     }
+      /* center textarea icon and increase size */
+      .textarea-icons{
+        padding: 60px 1px !important; /* top and bottom paddings are set to 60px */
+     }
+     /* style the submit button */
+     .input-cnt > input[type="submit"] {
+        border: none;
+        border-radius: 20px;
+        outline: none;
+        width: 65%;
+        margin: 0 auto;
+        font-size: 105%;
+        padding: 8px;
+        color: #fff ;
+        background: #0d78c0;
+        transition-duration: .5s;
+     }
+      /* add a hover effect for the submit button */
+      .input-cnt > input[type="submit"]:hover {
+        color: white;
+        background: rgb(2, 0, 128);
+     }
+     
+  /*----responsive contact us------*/
+@media (max-width:600px)
+   
+{
+  .form-container{
+    padding: 2rem  auto 33px auto;
+  }
+}
+
+    /*--------sample project-------*/
+    .brands{
+        margin-top: 60px;
+        margin-bottom: 60px;
+        display: flex;
+        position: relative;
+            flex-wrap: wrap;
+            min-width: 300px;
+            margin-left: 25px;
+            margin-right: 25px;
+        background-color: #fff;
+        color: #333;
+            height: 100%;
+            align-items: center;
+           min-height: 300px;
+           max-height: 100%;  
+           box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+      
+       }
+       .titlee{
+    
+       margin-right: auto ;
+            margin-left: auto;
+            color:#0d78c0;
+            padding: 10px 0;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 30px;
+        font-size: 1.1em;
+        }
+        .deliverry{
+            display: inline-block;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px;
+            text-align: center;
+        }
+        .IMG{
+            transition: all 0.5s;
+            color: #0d78c0;
+            outline: none;
+            height: 125px;
+            width: 125px;
+          }
+        .IMG:hover{
+       cursor: pointer;
+       background-color: #0d78c0;
+       -webkit-filter:blur(5px);
+       filter: blur(5px);
+    
+   }
+        
+        .strengths{
+            width: 100%;
+        display: flex;
+         text-align: center;
+         margin-top: 10px;
+         margin-bottom: 0px;
+         position: relative;
+         flex-wrap: wrap;
+        }
+       .imgg:hover {
+        background-color: #0d78c0;
+        transition: 0.5s ease-out;
+        cursor: pointer;
+        height: 80%;
+        }
+        /*--------support----*/
+        .contents{
+padding-top: 50px;
+        }
+   .p2{
+font-size: 34px;
+font-weight: 300;
+font-family: cursive;
+color:#555;
+margin-top: 10px;
+background-color: #fff;
+   }
+/*----------foooter------*/
+#site-info {
+	width: 100%;
+	line-height: 5;
+	text-align: center;
+	background: #000;
+	color: #fff;
+	left: 0;
+    margin-top:50px;
+	bottom: 0;
+}
